@@ -7,8 +7,6 @@ import { SAVE_BOOK } from "../utils/mutations";
 import { GET_ME } from "../utils/queries"
 import { searchGoogleBooks } from "../utils/queries"
 
-import { saveBookIds, getSavedBookIds } from "../utils/localStorage";
-
 const SearchBooks = () => {
   // create state for holding retggogleurned google api data
   const [searchedBooks, setSearchedBooks] = useState([]);
